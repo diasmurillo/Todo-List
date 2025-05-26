@@ -4,7 +4,9 @@ import './index.css'
 import TodoList from './TodoList.jsx'
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+  <BrowserRouter>
+    <StrictMode>
     <TodoList />
-  </StrictMode>,
+  </StrictMode>
+  </BrowserRouter>
 )
